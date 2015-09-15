@@ -1,0 +1,21 @@
+{
+  "name": "friendly-fire-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "install": "./node_modules/tsd/build/cli.js reinstall && ./node_modules/tsd/build/cli.js bundle && ./node_modules/bower/bin/bower install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "bower": "^1.5.2",
+    "tsd": "^0.6.4",
+    "typescript": "^1.7.0-dev.20150904"
+  }
+}
